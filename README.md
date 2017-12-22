@@ -13,6 +13,10 @@ res = uvc_find_device(
                           VID, PID, NULL); 
 ```
 3. set break point in stream.c/uvc_get_stream_ctrl_format_size
+```
+ if (!_uvc_frame_format_matches_guid(cf, format->guidFormat)) // set point here check device supported format 
+      continue;
+```
 4. check H264 fromat .
 5. add H264 format .
 it's done for add H264
