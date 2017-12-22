@@ -19,5 +19,9 @@ res = uvc_find_device(
 ```
 4. check H264 fromat .
 5. add H264 format .
-it's done for add H264
 
+
+6. it's done for add H264
+
+## License
+This project is licensed under the MIT License
