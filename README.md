@@ -4,7 +4,7 @@ how to add h264 in libuvc
 ## Add H264 to libUVC
 just note my history , please feel free to share .
 
-1. build libuvc with xcode ( I just ready to push in github)
+1. build libuvc with xcode (in this git)
 2. wirte test code for capture  test. ( also in this git)
 ```
 vid/pid change
